@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Minha Rota - Motorista</title>
+    <link rel="stylesheet" href="motorista.css" />
+</head>
+<body>
+    <div id="app">
+        <header>
+            <div class="header-info">
+                <h1 id="veiculo-titulo">Veículo 1</h1>
+                <p id="veiculo-info">Carregando...</p>
+            </div>
+        </header>
+
+        <div class="progresso-container">
+            <div class="progresso-bar">
+                <div id="progresso-fill" class="progresso-fill"></div>
+            </div>
+            <p id="progresso-texto">0 de 0 entregas concluídas</p>
+        </div>
+
+        <div id="lista-paradas" class="lista-paradas">
+            <div class="loading">Carregando rota...</div>
+        </div>
+
+        <footer>
+            <button id="btn-iniciar-navegacao" class="btn btn-navegacao" disabled>
+                Iniciar Navegação
+            </button>
+        </footer>
+    </div>
+
+    <script src="motorista.js"></script>
+</body>
+</html>
